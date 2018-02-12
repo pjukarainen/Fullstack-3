@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 // korvaa url oman tietokantasi urlilla. ethän laita salasanaa Gothubiin!
-const url = process.env.MONGODB_URL
+const url = process.env.MONGODB_URI
 
 mongoose.connect(url)
 
